@@ -35,6 +35,11 @@ def index():
 def tentang():
     return render_template("tentang.html")
 
+# Rute halaman bantuan
+@app.route("/bantuan")
+def bantuan():
+    return render_template("bantuan.html")
+
 if __name__ == "__main__":
     # Menjalankan server aplikasi di http://127.0.0.1:5000/ (localhost)
     app.run(debug=True)
