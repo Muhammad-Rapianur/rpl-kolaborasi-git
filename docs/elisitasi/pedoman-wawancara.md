@@ -20,7 +20,7 @@
 
 | Pemangku Kepentingan | Peran | Kepentingan | Cara Dilibatkan |
 |----------------------|-------|-------------|-----------------|
-| Ibu Rahma | Pemilik Toko (Pengambil keputusan) | Memantau ringkasan omzet, stok menipis, barang terlaris tiap Sabtu, dan mengontrol piutang | Wawancara mendalam & evaluasi berkala |
+| Ibu Rahma / Bapak H | Pemilik Toko (Pengambil keputusan) | Memantau ringkasan omzet, stok menipis, barang terlaris tiap Sabtu, dan mengontrol piutang | Wawancara mendalam & evaluasi berkala |
 | Staf Gudang | Pengelola stok fisik | Kemudahan mencatat barang masuk, cek sisa stok, dan kecepatan penyesuaian stok opname | Wawancara & observasi alur bongkar muat |
 | Kasir Toko | Operator transaksi penjualan | Kemudahan mencatat penjualan cepat, cetak nota, dan pengecekan ketersediaan barang | Wawancara & observasi saat jam sibuk |
 | Kontraktor Kecil | Pelanggan kredit/tempo | Kejelasan status nota tempo, batas waktu pembayaran, dan rincian barang yang diambil | Studi dokumen nota piutang |
@@ -36,7 +36,7 @@
 
 | Teknik Dipilih | Siapa / Apa yang Menjadi Sumber | Alasan Memilih |
 |----------------|---------------------------------|----------------|
-| Wawancara Mendalam (*Semi-structured Interview*) | Pemilik toko (Ibu Rahma), kasir, dan staf gudang | Menggali keluhan harian, alur komunikasi saat barang keluar, kendala penagihan tempo, dan kebutuhan fitur laporan mingguan. |
+| Wawancara Mendalam (*Semi-structured Interview*) | Pemilik toko, kasir, dan staf gudang | Menggali keluhan harian, alur komunikasi saat barang keluar, kendala penagihan tempo, dan kebutuhan fitur laporan mingguan. |
 | Studi Dokumen (*Document Analysis*) | Buku stok gudang, buku nota rangkap penjualan, dan buku catatan piutang kontraktor | Mengetahui format data nyata (nama 150 barang, variasi satuan zak/batang/truk, format nomor nota, jatuh tempo pembayaran). |
 | Observasi Langsung | Meja kasir dan area gudang saat jam ramai transaksi | Melihat secara langsung jeda waktu pencatatan penjualan hingga staf gudang mengetahuinya serta interaksi fisik dengan nota kertas. |
 
@@ -66,14 +66,14 @@
 | 9 | Pengguna | Tampilan antarmuka seperti apa yang paling nyaman digunakan oleh kasir dan staf gudang saat toko sedang ramai pembeli? | Apakah ukuran tulisan, kontras warna, atau penggunaan navigasi keyboard menjadi kebutuhan utama? |
 | 10 | Kendala | Apa yang biasanya terjadi pada proses pelayanan toko jika aliran listrik padam atau jaringan internet terputus? | Berapa lama pemadaman listrik biasanya berlangsung di wilayah toko? |
 | 11 | Kendala | Mengingat perangkat yang tersedia adalah satu laptop lama dan ponsel, apakah aplikasi diharapkan bisa diakses dari kedua perangkat tersebut? | Apakah laptop tersebut diletakkan menetap di meja kasir? |
-| 12 | Harapan | Informasi apa saja yang Ibu harapkan dapat dilihat setiap hari Sabtu mengenai performa barang di toko? | Apakah Ibu membutuhkan rangkuman barang paling laris serta daftar barang yang stoknya sudah kritis di bawah batas minimum? |
+| 12 | Harapan | Informasi apa saja yang diharapkan dapat dilihat setiap hari Sabtu mengenai performa barang di toko? | Apakah membutuhkan rangkuman barang paling laris serta daftar barang yang stoknya sudah kritis di bawah batas minimum? |
 | 13 | Harapan | Seperti apa mekanisme pengingat (*reminder*) yang ideal agar piutang tempo kontraktor tidak lewat dari dua minggu? | Apakah cukup berupa penanda warna merah pada daftar tagihan yang mendekati jatuh tempo? |
 | 14 | Harapan | Apa tolak ukur keberhasilan bagi toko jika aplikasi pencatatan stok dan penjualan ini sudah diterapkan nantinya? | Berapa estimasi waktu maksimal yang diharapkan untuk mencatat satu transaksi nota? |
 
 ---
 
 ## D. Etika dan Privasi
-- **Izin Klien:** Izin wawancara diperoleh pada tanggal 04 November 2026 melalui konfirmasi pesan tertulis dan tatap muka bersama pemilik Toko Bangunan "Maju Jaya".
+- **Izin Klien:** Izin wawancara diperoleh pada tanggal 04 November 2026 melalui konfirmasi pesan tertulis dan tatap muka bersama pemilik Toko Bangunan.
 - **Perlindungan Data Pribadi:**
   - Nama pelanggan, nomor telepon, dan data pribadi kontraktor disamarkan menjadi inisial (misal: "Kontraktor A", "Pelanggan B").
   - Nominal saldo keuangan sensitif yang difoto untuk keperluan analisis telah disamarkan dengan seizin pemilik.
@@ -92,3 +92,25 @@
 | **Menggali contoh nyata** | Ya | Terdapat pertanyaan eksplisit meminta contoh kejadian terakhir dan bukti fisik buku catatan. |
 | **Permintaan contoh data/dokumen** | Ya | Terdapat 3 pertanyaan yang meminta contoh fisik dokumen (surat jalan/stok, nota rangkap kasir, buku piutang tempo). |
 
+---
+
+## F. Dokumentasi Izin Wawancara Klien Nyata (Langkah 11)
+
+- **Tanggal Komunikasi Izin:** 06 November 2026, 09.15 WIB
+- **Kanal:** Pesan WhatsApp & Kunjungan Pendahuluan
+- **Narasumber (Disamarkan):** Bapak H (Pemilik Toko Bahan Bangunan di Jl. Tjilik Riwut, Sampit)
+- **Teks Pesan Izin (Sesuai Lampiran C.1):**
+  > *"Selamat pagi, Bapak H. Saya Muhammad Rapianur, mahasiswa D3 Teknologi Informasi Politeknik Sampit. Dalam tugas mata kuliah Rekayasa Perangkat Lunak, kelompok kami (3 orang) mempelajari kebutuhan usaha toko bangunan di sekitar Sampit untuk dibuatkan purwarupa aplikasi pencatatan stok dan penjualan sederhana sebagai latihan praktikum.*  
+  > *Bolehkah kami mewawancarai Bapak sekitar 30–45 menit tentang cara pencatatan stok dan transaksi yang dipakai sekarang? Kami hanya mencatat hal yang berkaitan dengan alur kerja, data pribadi akan kami samarkan sepenuhnya, dan tidak ada kewajiban membeli atau memakai aplikasi.*  
+  > *Bila berkenan, kami juga ingin melihat (dan memotret) contoh format buku/nota yang dipakai dengan seizin Bapak. Mohon kabari hari dan waktu yang nyaman bagi Bapak. Terima kasih banyak atas kesediaannya."*
+- **Respons Klien:** Disetujui untuk dilaksanakan pada Sabtu, 07 November 2026 pukul 14.00 WIB saat aktivitas toko mulai lengang.
+
+---
+
+## G. Pembaruan dan Evaluasi Pedoman Pasca-Wawancara Lapangan (Langkah 13 poin 4)
+
+Setelah pelaksanaan wawancara klien nyata di lapangan, pedoman dievaluasi sebagai berikut:
+1. **Pertanyaan yang Dihapus/Disederhanakan:** Pertanyaan teknis awal mengenai jenis database atau jaringan ditiadakan karena membingungkan narasumber yang non-teknis. Pertanyaan difokuskan ke aspek fungsional ("Berapa lama transaksi bisa selesai?").
+2. **Pertanyaan Tambahan yang Terbukti Sangat Produktif:**
+   - *"Jika kontraktor mengutus tukangnya untuk mengambil barang, siapa yang menandatangani nota bon tempo?"* (Ternyata toko mencatat nama sopir/tukang pengambil di sudut nota agar kontraktor tidak menyangkal saat penagihan).
+   - *"Bagaimana penanganan harga jika ada pelanggan borongan proyek?"* (Toko memiliki toleransi potongan harga manual untuk pembelian semen di atas 50 sak).
